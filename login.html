@@ -6,11 +6,21 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="login-body"> 
-  <label for="name">Email</label>
-        <input type="email" name="email" id="email">
+<body > 
+  <form action="index.html" class="login-body">
+     <h2>LOGIN</h2>
+  <label for="name" >Email</label>
+        <input type="email" name="email" id="email"  class="inputs" >
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <a href="index.html"><button>Login</button></a> 
+        <input type="password" name="password" id="password"class="inputs"
+        placeholder="***">
+        <a href="index.html"><button class="btn">Login</button></a> 
+        <div class="links">
+          <a href="#">forgotten password?</a>
+          <a href="index.html">Create an account
+          </a>
+        </div>
+        </form>
 </body>
+<script src="script.js"></script>
 </html>
